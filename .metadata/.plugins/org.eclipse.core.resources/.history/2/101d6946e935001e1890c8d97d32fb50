@@ -1,0 +1,31 @@
+package classes;
+
+import java.util.Scanner;
+
+public class Classes {
+
+	public static void main(String[] args) {
+		
+		Person p = new person();
+		
+	}
+	
+	
+
+}
+
+class Person
+{
+	public Integer yas;
+	public String isim;
+	
+	public void RunAlgorithm()
+	{
+		
+	}
+	
+	public void Konus(String mesaj)
+	{
+		System.out.println("Merhaba "+ mesaj);
+	}
+}

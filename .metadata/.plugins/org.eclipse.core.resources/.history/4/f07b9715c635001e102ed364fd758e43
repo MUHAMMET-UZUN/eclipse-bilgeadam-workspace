@@ -1,0 +1,26 @@
+package august_8;
+
+public class Challenges {
+
+	public static void main(String[] args) {
+	System.out.println(StringReplace("Numan Karaaslan"));
+
+	}
+	
+	private static String StringReplace(String text)
+	{
+		text.toLowerCase();
+		char[] temp = text.toCharArray();
+		
+		for(int i = 0; i<text.length();i++)
+		{
+			if(temp[i] == 'a')
+				temp[i] = '2';
+			else if(temp[i] == 'u')
+				temp[i] = '7';
+		}
+		text = temp.toString();
+		return text;
+	}
+
+}

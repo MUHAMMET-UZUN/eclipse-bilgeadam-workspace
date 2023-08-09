@@ -19,7 +19,8 @@ class Person
 	private Integer yas;
 	private String isim;
 	
-	public Person() {
+	public Person() 
+	{
 		System.out.println(Konus("Ben geldim"));
 	}
 	

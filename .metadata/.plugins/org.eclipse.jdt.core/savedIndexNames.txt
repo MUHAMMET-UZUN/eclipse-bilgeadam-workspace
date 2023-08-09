@@ -1,4 +1,2 @@
 INDEX VERSION 1.134+C:\Users\UMAMI\eclipse-bilgeadam-workspace\.metadata\.plugins\org.eclipse.jdt.core
-3421413315.index
-132307318.index
 1865797976.index

@@ -12,12 +12,12 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// ornek8();
-		// ornek9();
+		ornek9();
 		// ornek10();
 		// ornek11();
 		// ornek12();
 		// ornek13();
-		ornek14();
+		// ornek14();
 
 	}
 

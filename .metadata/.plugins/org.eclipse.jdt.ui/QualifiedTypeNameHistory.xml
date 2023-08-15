@@ -12,11 +12,20 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="august_11.Person"/>
     <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.GeoTIFFTagSet"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="main.MainClass"/>
+    <fullyQualifiedTypeName name="Immutability.Person"/>
+    <fullyQualifiedTypeName name="Kartlar.BankaKarti"/>
+    <fullyQualifiedTypeName name="august_15.MainClass"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="Kartlar.Kart"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Kartlar.KrediKarti"/>
+    <fullyQualifiedTypeName name="Kartlar.PlatinKart"/>
+    <fullyQualifiedTypeName name="Human.Insan"/>
 </qualifiedTypeNameHistroy>

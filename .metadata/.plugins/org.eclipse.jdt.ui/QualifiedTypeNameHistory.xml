@@ -28,4 +28,5 @@
     <fullyQualifiedTypeName name="Kartlar.KrediKarti"/>
     <fullyQualifiedTypeName name="Kartlar.PlatinKart"/>
     <fullyQualifiedTypeName name="Human.Insan"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

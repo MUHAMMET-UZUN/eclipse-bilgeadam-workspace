@@ -24,9 +24,17 @@
     <fullyQualifiedTypeName name="august_15.MainClass"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
     <fullyQualifiedTypeName name="Kartlar.Kart"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Kartlar.KrediKarti"/>
     <fullyQualifiedTypeName name="Kartlar.PlatinKart"/>
     <fullyQualifiedTypeName name="Human.Insan"/>
+    <fullyQualifiedTypeName name="Shapes.Square"/>
+    <fullyQualifiedTypeName name="Shapes.Shapes"/>
+    <fullyQualifiedTypeName name="Shapes.Triangle"/>
+    <fullyQualifiedTypeName name="Shapes.Cube"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Odev.MainClass"/>
+    <fullyQualifiedTypeName name="Shapes.Cylinder"/>
+    <fullyQualifiedTypeName name="Insan.Human"/>
+    <fullyQualifiedTypeName name="Insan.Erkek"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

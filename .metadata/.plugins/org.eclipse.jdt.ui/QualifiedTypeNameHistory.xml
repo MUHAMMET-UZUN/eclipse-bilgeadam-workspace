@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="main.MainClass"/>
     <fullyQualifiedTypeName name="Immutability.Person"/>
-    <fullyQualifiedTypeName name="Kartlar.BankaKarti"/>
     <fullyQualifiedTypeName name="august_15.MainClass"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
     <fullyQualifiedTypeName name="Kartlar.Kart"/>
@@ -37,4 +36,14 @@
     <fullyQualifiedTypeName name="Insan.Human"/>
     <fullyQualifiedTypeName name="Insan.Erkek"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
+    <fullyQualifiedTypeName name="DependencyInj.Actor"/>
+    <fullyQualifiedTypeName name="DependencyInj.Horror"/>
+    <fullyQualifiedTypeName name="DependencyInj.Script"/>
+    <fullyQualifiedTypeName name="Kartlar.BankaKarti"/>
+    <fullyQualifiedTypeName name="FileOps.MainClass"/>
+    <fullyQualifiedTypeName name="java.io.FileDescriptor"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>

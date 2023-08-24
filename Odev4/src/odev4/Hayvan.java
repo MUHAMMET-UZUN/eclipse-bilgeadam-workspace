@@ -2,22 +2,14 @@ package odev4;
 
 public abstract class Hayvan {
 
-	public void YemekYe() {
-		System.out.println("Hayvan yemek yiyor");
+	private String isim;
+
+	public String getIsim() {
+		return isim;
 	}
 
-	public void SuIc() {
-		System.out.println("Hayvan su içiyor");
+	public void setIsim(String isim) {
+		this.isim = isim;
 	}
-
-	public void Uyu() {
-		System.out.println("Hayvan uyuyor");
-	}
-
-	public void Avlan() {
-		System.out.println("Hayvan avlanıyor");
-	}
-
-	public abstract void Konus();
 
 }

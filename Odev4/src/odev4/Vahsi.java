@@ -6,10 +6,4 @@ public class Vahsi extends Hayvan {
 	public Vahsi(String isim) {
 		this.isim = isim;
 	}
-
-	@Override
-	public void Konus() {
-		System.out.println("Hayvan konuşuyor");
-
-	}
 }

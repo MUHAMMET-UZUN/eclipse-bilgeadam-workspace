@@ -6,10 +6,4 @@ public abstract class Pet extends Hayvan {
 	public Pet(String isim) {
 		this.isim = isim;
 	}
-
-	@Override
-	public void Konus() {
-		System.out.println("Hayvan konuşuyor");
-
-	}
 }

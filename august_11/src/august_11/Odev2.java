@@ -19,7 +19,8 @@ Konsoldan girilen ifadeyi zipleyip harfleri listeye atmak (map ve arraylist ile)
 public class Odev2 {
 
 	public static void main(String[] args) {
-		// ornek1();
+
+		ornek1();
 		// ornek2();
 	}
 

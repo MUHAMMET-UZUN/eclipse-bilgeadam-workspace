@@ -1,20 +1,22 @@
 package august_28;
 
-import java.util.LinkedList;
+import java.sql.SQLException;
 
-import com.bilgeadam.jdbc.model.Konu;
+import com.bilgeadam.jdbc.repository.DersOgrenciRepository;
+import com.bilgeadam.jdbc.repository.DersRepository;
 import com.bilgeadam.jdbc.repository.KonuRepository;
+import com.bilgeadam.jdbc.repository.OgrenciRepository;
+import com.bilgeadam.jdbc.repository.OgretmenRepository;
 
 public class MyApp {
-	public static void main(String[] args) {
-		KonuRepository repo = new KonuRepository();
+	public static void main(String[] args) throws SQLException {
+		static KonuRepository konuRepository = new KonuRepository();
+		static OgretmenRepository ogretmenRepository = new OgretmenRepository();
+		static DersRepository dersRepository = new DersRepository();
+		static OgrenciRepository ogrenciRepository = new OgrenciRepository();
+		static DersOgrenciRepository dersOgrenciRepository = new DersOgrenciRepository();
 
-		try {
-			LinkedList<Konu> list = repo.selectAll();
-			for (Konu k : list)
-				System.out.println(k);
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
+		ogretmenRepository.insert("berkay", false);
+		System.out.println(ogretmenRepository);
 	}
 }

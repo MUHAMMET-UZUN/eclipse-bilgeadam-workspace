@@ -13,9 +13,9 @@ public class MainClass {
 		// ornek3();
 		// ornek7();
 		// replace("numan karaaslan", "la", "-");
-		// System.out.println(Zip("numan karaaslan"));
+		System.out.println(Zip("numan karaaslan"));
 		// challenge1("numan karaaslan");
-		challenge2("numan karaaslan", "n", "xxx");
+		// challenge2("numan karaaslan", "n", "xxx");
 	}
 
 	private static void challenge2(String text, String from, String to) {

@@ -3,8 +3,8 @@ package august_10_2;
 public class Odev1 {
 
 	public static void main(String[] args) {
-		replace("numan karaaslan ", "a", "--");
-		// System.out.println(Zip("numan karaaslan"));
+		// replace("numan karaaslan ", "a", "--");
+		System.out.println(Zip("numan karaaslan"));
 		// challenge1("numan karaaslan");
 
 	}

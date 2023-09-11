@@ -13,7 +13,7 @@ import august_28.DBConstants;
 
 public class KonuRepository {
 	public LinkedList<Konu> selectAll() throws SQLException {
-		Connection c = DBConstants.getConnection();
+		Connection c = DBConstants.DBConnection();
 		Statement stmnt = c.createStatement();
 		ResultSet result = stmnt.executeQuery("select * from \"KONU\" order by \"ID\" asc");
 		LinkedList<Konu> konular = new LinkedList<>();
@@ -32,7 +32,7 @@ public class KonuRepository {
 
 	public boolean insert(String name) throws SQLException {
 		boolean isInserted = false;
-		Connection c = DBConstants.getConnection();
+		Connection c = DBConstants.DBConnection();
 		String sql = "INSERT INTO \"OBS\".\"KONU\" (\"NAME\") VALUES (?)";
 		PreparedStatement stmt = c.prepareStatement(sql);
 		stmt.setString(1, name);
@@ -45,7 +45,7 @@ public class KonuRepository {
 	public static boolean deletebyId(long id) {
 		boolean isDeleted = false;
 		try {
-			Connection c = DBConstants.getConnection();
+			Connection c = DBConstants.DBConnection();
 			String sql = "";
 			PreparedStatement stmt = c.prepareStatement(sql);
 			stmt.setLong(1, id);
@@ -56,5 +56,10 @@ public class KonuRepository {
 			e.printStackTrace();
 		}
 		return isDeleted;
+	}
+
+	public Konu selectById(long konu_ID) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

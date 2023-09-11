@@ -11,7 +11,7 @@ public class DBConstants {
 
 	public static final String URL = "jdbc:postgresql://localhost:5432/OBS";
 
-	public static final Connection getConnection() throws SQLException {
+	public static final Connection DBConnection() throws SQLException {
 		return DriverManager.getConnection(URL, USER, PASSWORD);
 	}
 }
